@@ -1,0 +1,196 @@
+body {
+  background-image: url(../images/ford.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 -250px;
+}
+
+* {
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  color: #FFF;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EEE;
+}
+
+#container {
+  background-color: rgba(34, 34, 34, 0.9);
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+/* * {
+  border: 1px solid black;
+} */
+
+#slide1 {
+  width: 100%;
+  height: 100px;
+  margin  : 0px;
+  border  : none;
+  padding : 0;
+}
+
+#slide2 {
+  width: 100%;
+  height: calc(100vh - 200px);
+  margin  : 0px;
+  border  : none;
+  padding : 0;
+}
+
+#slide3 {
+  width: 100%;
+  height: 100px;
+  margin  : 0px;
+  border  : none;
+  padding : 0;
+}
+
+.logo {
+  width: auto;
+  max-height: 75px;
+  float: left;
+  align-items: center;
+  padding: 20px 40px;
+  top: 4vh;
+}
+
+#menu-ul {
+  float: right;
+  list-style-type: none;
+}
+#menu-ul li {
+  display: inline-block;
+  align-items: center;
+  padding: 20px 60px;
+  top: 4vh;
+}
+
+#main-text {
+  position: absolute;
+  top: calc(50vh - 100px);
+  left: 25%;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+
+/*#bottom-menu {
+  background-color: pink;
+  outline: 0;
+  display: inline-block;
+  width: 25%;
+  height: 150px;
+  top: 0;
+  left: 0;
+  text-align: center;
+  margin: 0 auto;
+  border: none;
+  padding: 50px 0;
+  position: 0 -400px;*/
+}
+
+.from {
+  /*display: inline-grid;
+  position: relative;
+  background-color: pink;
+  top: 60%;
+  width: 25%;
+  height: 40%;*/
+}
+
+.to {
+/*  display: inline-grid;
+  position: relative;
+  background-color: pink;
+  top: 60%;
+  left: 25%;
+  width: 25%;
+  height: 40%;*/
+}
+{
+  display: block;
+}
+.footer-box {
+  outline: 0;
+  float: left;
+  width: 25%;
+  height: 150px;
+  top: 0;
+  left: 0;
+  text-align: center;
+  margin: 0 auto;
+  border: none;
+  padding: 50px 0;
+}
+
+#from {
+  background-color: #cccccc;
+  color: #000;
+}
+
+
+#to {
+  background-color: #e5e5e5;
+  color: #000;
+}
+
+#car {
+  background-color: #cccccc;
+  color: #000;
+}
+
+#rent {
+  background-color: #222;
+}
+
+#from:hover {
+  background-color: #222;
+  color: white;
+}
+
+#to:hover {
+  background-color: #222;
+  color: white;
+}
+
+#car:hover {
+  background-color: #222;
+  color: white;
+}
+
+#rent:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.header {
+
+}
+
+.main {
+
+
+}
+
+.footer {
+
+}
