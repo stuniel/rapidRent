@@ -1,8 +1,9 @@
-body {
-  background-image: url(../images/ford.jpg);
+html {
+  background: url(../images/ford.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 0 -250px;
 }
 
 * {
@@ -74,7 +75,7 @@ a:hover {
 #menu-ul li {
   display: inline-block;
   align-items: center;
-  padding: 20px 60px;
+  padding: 20px 50px;
   top: 4vh;
 }
 
@@ -92,7 +93,50 @@ h2 {
   font-size: 20px;
 }
 
+#hiding-box1 {
+  visibility: hidden;
+  background-color: #222;
+  position: fixed;
+  outline: 0;
+  width: 25%;
+  height: 150px;
+  top: calc(100vh - 350px);
+  left: 0;
+  text-align: center;
+  margin: 0 auto;
+  border: none;
+  padding: 50px 0;
+}
 
+#hiding-box2 {
+  display: none;
+  background-color: #222;
+  position: fixed;
+  outline: 0;
+  width: 25%;
+  height: 150px;
+  top: calc(100vh - 350px);
+  left: 25%;
+  text-align: center;
+  margin: 0 auto;
+  border: none;
+  padding: 50px 0;
+}
+
+#hiding-box3 {
+  visibility: hidden;
+  background-color: pink;
+  position: fixed;
+  outline: 0;
+  width: 25%;
+  height: 150px;
+  top: calc(100vh - 350px);
+  left: 50%;
+  text-align: center;
+  margin: 0 auto;
+  border: none;
+  padding: 50px 0;
+}
 /*#bottom-menu {
   background-color: pink;
   outline: 0;
@@ -126,9 +170,7 @@ h2 {
   width: 25%;
   height: 40%;*/
 }
-{
-  display: block;
-}
+
 .footer-box {
   outline: 0;
   float: left;

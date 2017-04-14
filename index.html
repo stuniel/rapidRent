@@ -7,20 +7,6 @@
 </head>
 <body>
 
-<--  <script language="javascript" type="text/javascript">
-
-    function changeColor () {
-      document.getElementById('mouseOn').style.color="pink";
-      return true;
-    }
-
-    function changeAgain () {
-      document.getElementById('mouseOn').style.color="#FFF";
-      return true;
-    }
-
-  </script>
-  !-->
   <div id="container">
 
     <section id="slide1" class="homeSlide">
@@ -31,7 +17,7 @@
             <li><a href="index.html">Main page</a></li>
             <li><a href="sub/how.html">How it works</a></li>
             <li><a href="sub/cars.html">Cars</a></li>
-            <li><a href="sub/help.html">Help</a></li>
+            <li><a href="sub/about.html">About us</a></li>
             <li><a href="sub/contact.html">Contact</a></li>
           </ul>
         </div>
@@ -50,12 +36,18 @@
     <section id="slide3" class="homeSlide">
       <div class="footer">
         <div id="footer-text">
-          <a href="sub/from"><div class="footer-box" id="from">From</div></a>
-            <!--<ul><li><div class="footer-box" id="from" class="from">
-              From
-            </div></li></ul>-->
-          <div class="footer-box" id="to">To</div>
-          <div class="footer-box" id="car">Car</div>
+          <div class="double-box">
+            <div id="hiding-box1">Calendar</div>
+            <div class="footer-box" id="from">From</div>
+          </div>
+          <div class="double-box">
+            <div id="hiding-box2">Calendar</div>
+            <div class="footer-box" id="to">To</div>
+          </div>
+          <div class="double-box">
+            <div id="hiding-box3">Cars</div>
+            <div class="footer-box" id="car">Car</div>
+          </div>
           <a href="sub/rent"><div class="footer-box" id="rent">Rent</div></a>
         </div>
 
@@ -68,6 +60,8 @@
     </section>
 
   </div>
+
+<script src="scripts/main.js"> </script>
 
 </body>
 </html>
