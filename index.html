@@ -3,7 +3,7 @@
 <head>
   <link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
   <title>RAPID - Rent a car</title>
-  <link href="css/rapid.css" type="text/css" rel="stylesheet">
+  <link href="css/main.css" type="text/css" rel="stylesheet">
   <link href="css/calendar.css" type="text/css" rel="stylesheet">
 </head>
 <body>
@@ -57,46 +57,46 @@
                     <li>thu</li>
                     <li>fri</li>
                     <li>sat</li>
-                    <li>sun</li>
+                    <li class="sunday">sun</li>
                   </ul>
-                  <ul class="days">
+                  <ul class="days" id="choose-date-from">
                     <li>1</li>
                     <li>2</li>
                     <li>3</li>
                     <li>4</li>
                     <li>5</li>
                     <li>6</li>
-                    <li>7</li>
+                    <li class="sunday">7</li>
                     <li>8</li>
                     <li>9</li>
                     <li>10</li>
                     <li>11</li>
                     <li>12</li>
                     <li>13</li>
-                    <li>14</li>
+                    <li class="sunday">14</li>
                     <li>15</li>
                     <li>16</li>
                     <li>17</li>
                     <li>18</li>
                     <li>19</li>
                     <li>20</li>
-                    <li>21</li>
+                    <li class="sunday">21</li>
                     <li>22</li>
                     <li>23</li>
                     <li>24</li>
                     <li>25</li>
                     <li>26</li>
                     <li>27</li>
-                    <li>28</li>
+                    <li class="sunday">28</li>
                     <li>29</li>
                     <li>30</li>
                     <li>31</li>
                     <li> </li>
                     <li> </li>
                     <li> </li>
-                    <li> </li>
+                    <li class="sunday"> </li>
                   </ul>
-                  <button id="close-box1">Close</button>
+                  <div id="close-box1">Close</div>
                 </div>
 
               </div>
@@ -125,46 +125,46 @@
                     <li>thu</li>
                     <li>fri</li>
                     <li>sat</li>
-                    <li>sun</li>
+                    <li class="sunday">sun</li>
                   </ul>
-                  <ul class="days">
+                  <ul class="days" id="choose-date-to">
                     <li>1</li>
                     <li>2</li>
                     <li>3</li>
                     <li>4</li>
                     <li>5</li>
                     <li>6</li>
-                    <li>7</li>
+                    <li class="sunday">7</li>
                     <li>8</li>
                     <li>9</li>
                     <li>10</li>
                     <li>11</li>
                     <li>12</li>
                     <li>13</li>
-                    <li>14</li>
+                    <li class="sunday">14</li>
                     <li>15</li>
                     <li>16</li>
                     <li>17</li>
                     <li>18</li>
                     <li>19</li>
                     <li>20</li>
-                    <li>21</li>
+                    <li class="sunday">21</li>
                     <li>22</li>
                     <li>23</li>
                     <li>24</li>
                     <li>25</li>
                     <li>26</li>
                     <li>27</li>
-                    <li>28</li>
+                    <li class="sunday">28</li>
                     <li>29</li>
                     <li>30</li>
                     <li>31</li>
                     <li> </li>
                     <li> </li>
                     <li> </li>
-                    <li> </li>
+                    <li class="sunday"> </li>
                   </ul>
-                  <button id="close-box2">Close</button>
+                  <div id="close-box2">Close</div>
                 </div>
 
               </div>
@@ -173,7 +173,32 @@
             <div class="footer-box" id="to">To</div>
           </div>
           <div class="double-box">
-            <div id="hiding-box3">Cars<br><button id="close-box3">Close</button></div>
+            <div id="hiding-box3">
+
+              <div class="carRent" id="calendar-from">
+                <div class="cars">
+                  <p>Choose a car</p>
+                </div>
+                <div class="carList">
+                  <ul class="chooseCar">
+                    <li>Opel Astra</li>
+                    <li>Toyota Yaris</li>
+                    <li>Toyota Auris</li>
+                    <li>Opel Corsa</li>
+                    <li>Skoda Fabia</li>
+                    <li>Ford Fiesta</li>
+                    <li>Ford Mondeo</li>
+                    <li>Ford Focus</li>
+                    <li>VW Golf</li>
+                    <li>Kia Cee'd</li>
+                    <li>Auto Laweta</li>
+                    <li>Bus</li>
+                  </ul>
+                  <div id="close-box3">Close</div>
+                </div>
+
+              </div>
+            </div>
             <div class="footer-box" id="car">Car</div>
           </div>
           <a href="sub/rent"><div class="footer-box" id="rent">Rent</div></a>
