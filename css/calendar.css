@@ -1,3 +1,19 @@
+::-webkit-scrollbar
+{
+  width: 12px;  /* for vertical scrollbars */
+  height: 12px; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track
+{
+  background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: rgba(0, 0, 0, 0.5);
+}
+
 .calendar {
   position: absolute;
   top: 0px;
@@ -5,7 +21,6 @@
   width: 100%;
   margin: 0;
   border: none;
-  z-index: 2;
 }
 
 .calendar ul li{
@@ -44,6 +59,14 @@
   width: 100%;
   left: 0;
   top: 5px;
+  text-align: center;
+}
+
+.month .year {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 25px;
   text-align: center;
 }
 
@@ -108,7 +131,6 @@
   width: 100%;
   margin: 0;
   border: none;
-  z-index: 2;
 }
 
 .cars p {
@@ -116,10 +138,17 @@
 }
 .carList {
   position: absolute;
-  top: 50px;
+  top: 30px;
   left: 0;
   width: 100%;
   height: 250px;
+}
+
+.carList ul {
+  height: 250px;
+  width: 100%;
+  overflow: hidden;
+  overflow-y: scroll;
 }
 
 .carList ul li {
@@ -140,7 +169,7 @@
   padding: 10px 0;
 }
 
-#close-box1, #close-box2, #close-box3 {
+#close-box1, #close-box2 {
   position: absolute;
   color: #FFF;
   background-color: #222;
@@ -150,6 +179,18 @@
   height: 150px;
   left: 0;
   top: 250px;
+}
+
+#close-box3 {
+  position: absolute;
+  color: #FFF;
+  background-color: #222;
+  text-align: center;
+  padding: 50px 0;
+  width: 100%;
+  height: 150px;
+  left: 0;
+  top: 270px;
 }
 
 #close-box1:hover, #close-box2:hover, #close-box3:hover {

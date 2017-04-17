@@ -11,7 +11,7 @@
   <div id="container">
 
     <section id="slide1" class="homeSlide">
-      <div class="header">
+      <div class="header" id="header">
         <div id="header-text">
           <img src="images/logo2.png" class="logo">
           <ul id="menu-ul">
@@ -45,8 +45,8 @@
                   <ul class="calendar-top-date">
                     <li class="prev">&#10094;</li>
                     <li class="next">&#10095;</li>
-                    <li class="date">January<br>
-                      2016</li>
+                    <li class="date" id="current-date-from">January</li>
+                    <li class="year">2016</li>
                   </ul>
                 </div>
                 <div class="calendarDays">
@@ -113,8 +113,8 @@
                   <ul class="calendar-top-date">
                     <li class="prev">&#10094;</li>
                     <li class="next">&#10095;</li>
-                    <li class="date">January<br>
-                      2016</li>
+                    <li class="date" id="current-date-to">January</li>
+                    <li class="year">2016</li>
                   </ul>
                 </div>
                 <div class="calendarDays">
@@ -180,7 +180,7 @@
                   <p>Choose a car</p>
                 </div>
                 <div class="carList">
-                  <ul class="chooseCar">
+                  <ul class="chooseCar" id="choose-car">
                     <li>Opel Astra</li>
                     <li>Toyota Yaris</li>
                     <li>Toyota Auris</li>
@@ -201,7 +201,7 @@
             </div>
             <div class="footer-box" id="car">Car</div>
           </div>
-          <a href="sub/rent"><div class="footer-box" id="rent">Rent</div></a>
+          <div class="footer-box" id="rent">Rent</div>
         </div>
 
 
